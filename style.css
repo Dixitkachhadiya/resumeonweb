@@ -46,16 +46,31 @@ body {
 .section-text {
 
     font-family: Quicksand;
-    font-weight:700;
+    font-weight: 700;
     font-size: 60px;
-    line-height: 74px;
+    line-height: 100px;
     letter-spacing: -2%;
     text-align: center;
 
+
 }
 
-.resume-image{
+.resume-image {
     width: 80%;
+}
+
+.marquee {
+    animation: scroll-left 15s linear infinite;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 
@@ -68,8 +83,8 @@ body {
         margin-right: 0px;
     }
 
-    .resume-image{
+    .resume-image {
         width: 50%;
     }
-    
+
 }
