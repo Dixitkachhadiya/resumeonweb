@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.custom-bg {
+    background: url('./assest/Header B.png') no-repeat center center;
+    background-size: cover;
+    background-color: rgba(16, 22, 32, 1);
+    height: 60px;
+}
+
+.overlay {
+    background: url('./overlay.png') no-repeat top;
+    background-size: cover;
+}
+
+.promo-bar {
+    background-color: rgba(235, 73, 62, 1);
+}
+
+.promo-heder {
+    margin-left: 100px;
+}
+
+.promo-font {
+    font-family: Montserrat;
+    font-weight: 600;
+}
+
+.Social-icon {
+    margin-right: 100px;
+}
+
+.login-btn {
+    background-color: (235, 73, 62, 0.2);
+    font-family: Montserrat;
+}
+
+.ragistration-btn {
+    background-color: rgba(235, 73, 62, 1);
+    font-family: Montserrat;
+
+}
+
+.section-text {
+
+    font-family: Quicksand;
+    font-weight:700;
+    font-size: 60px;
+    line-height: 74px;
+    letter-spacing: -2%;
+    text-align: center;
+
+}
+
+.resume-image{
+    width: 80%;
+}
+
+
+@media (max-width: 768px) {
+    .promo-heder {
+        margin-left: 0px;
+    }
+
+    .Social-icon {
+        margin-right: 0px;
+    }
+
+    .resume-image{
+        width: 50%;
+    }
+    
+}

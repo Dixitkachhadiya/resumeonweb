@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume On Web</title>
+    <link rel="stylesheet" href="Kickstart.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+
+    <!-- <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        montserrat: ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script> -->
+</head>
+
+<body>
+    <!-- Promo Bar -->
+    <div class="text-white px-4 py-2 flex items-center justify-between text-sm sm:text-base promo-bar">
+        <!-- Left: Message with Icon -->
+        <div class="flex items-center gap-2 promo-heder">
+            <i data-lucide="badge-percent" class="w-5 h-5 sm:w-5 sm:h-5"></i>
+            <span class="font-medium promo-font">
+                Kickstart Your Career - First 10 Resume Templates Free!
+            </span>
+        </div>
+
+
+
+        <!-- Right: Social Icons -->
+        <div class="flex items-center gap-3 Social-icon">
+            <a href="#" aria-label="Twitter"
+                class="bg-white w-8 h-8 flex items-center justify-center rounded-full hover:scale-110 transition-transform">
+                <i data-lucide="twitter" class="w-4 h-4" style="color: rgba(235, 73, 62, 1);"></i>
+            </a>
+            <a href="#" aria-label="Facebook"
+                class="bg-white w-8 h-8 flex items-center justify-center rounded-full hover:scale-110 transition-transform">
+                <i data-lucide="facebook" class="w-4 h-4" style="color: rgba(235, 73, 62, 1);"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w-full shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+
+                <!-- Logo or Left Nav -->
+                <div class="flex items-center space-x-6">
+                    <nav class="hidden md:flex items-center space-x-6 text-sm font-medium">
+                        <a href="#" class="bg-gray-100 px-4 py-2 rounded-full text-gray-800">Home</a>
+                        <a href="#" class="flex items-center hover:text-red-500">
+                            About us
+                            <i data-lucide="chevron-down" class="w-4 h-4 ml-1"></i>
+                        </a>
+                        <a href="#" class="flex items-center hover:text-red-500">
+                            Templates
+                            <i data-lucide="chevron-down" class="w-4 h-4 ml-1"></i>
+                        </a>
+                        <a href="#" class="hover:text-red-500">Pricing</a>
+                    </nav>
+                </div>
+
+                <!-- Right Buttons -->
+                <div class="flex items-center space-x-3">
+                    <a href="#"
+                        class="hidden sm:inline-block text-red-600 bg-red-100 hover:bg-red-200 px-4 py-2 rounded-md text-sm font-medium transition login-btn">
+                        Login
+                    </a>
+                    <!-- <a href="#"
+                        class="inline-block bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md text-sm font-semibold transition ragistration-btn">
+                        Register - free
+                    </a> -->
+
+                    <a href="#"
+                        class="inline-block bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md text-sm font-semibold transition registration-btn not-italic no-underline">
+                        Register - free
+                    </a>
+
+                    <!-- Mobile Menu Icon -->
+                    <button class="md:hidden flex items-center" id="mobileMenuBtn">
+                        <i data-lucide="menu" class="w-6 h-6 text-gray-700"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="md:hidden hidden flex-col space-y-3 mt-4 text-sm font-medium" id="mobileMenu">
+                <a href="#" class="block text-gray-800 px-2 py-1 rounded hover:bg-gray-100">Home</a>
+                <a href="#" class="block text-gray-800 px-2 py-1 rounded hover:bg-gray-100">About us</a>
+                <a href="#" class="block text-gray-800 px-2 py-1 rounded hover:bg-gray-100">Templates</a>
+                <a href="#" class="block text-gray-800 px-2 py-1 rounded hover:bg-gray-100">Pricing</a>
+                <a href="#" class="text-red-600 bg-red-100 hover:bg-red-200 px-3 py-1 rounded-md w-max">Login</a>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="custom-bg relative min-h-[500px] flex items-center justify-center px-4 py-10 md:py-16">
+        <div class="absolute inset-0 bg-[#EB493E00] z-0"></div>
+        <div class="overlay absolute bottom-0 w-full h-20 z-10"></div>
+
+        <div class="relative z-20 max-w-3xl text-center">
+            <p class="text-2xl md:text-4xl font-bold mb-4 section-text">
+                <span class="text-white">Make your</span>
+                <span class="text-[#FF5C5C] underline decoration-wavy decoration-2">Professional resume</span><br />
+                <span class="text-white">Live and Alive!</span>
+            </p>
+            <p class="text-gray-300 text-sm md:text-base font-medium mb-5 md:mb-6 px-2 md:px-0">
+                Designed for professionals, built for results — your job-winning resume starts here.
+                From freshers to seasoned pros, we've got the perfect template for every career.
+            </p>
+            <button class="bg-[#FF5C5C] text-white py-2 px-6 rounded hover:bg-red-600 transition text-sm md:text-base">
+                Get started - <span class="italic">free</span>
+            </button>
+        </div>
+
+        <div class="absolute inset-0 z-10 pointer-events-none">
+            <div class="absolute top-6 left-6 w-12 h-12 md:w-16 md:h-16 ">
+                <img src="./assest/image.png" class="rounded-lg" alt="engineer" />
+            </div>
+            <div class="absolute top-20 left-20">
+                <img src="./assest/Group 693.png" class="rounded-lg resume-image" alt="resume-icon" />
+            </div>
+            <div class="absolute top-10 left-1/3 transform -translate-x-1/1">
+                <img src="./assest/Group 693.png" class="rounded-lg " alt="resume-icon" width="80%" />
+            </div>
+            <div class="absolute top-3 left-1/2 transform -translate-x-1/2 ">
+                <img src="./assest/image (2).png" class="rounded-lg" alt="doctor" width="80%" />
+            </div>
+            <div class="absolute top-20 right-20 w-10 h-10 md:w-12 md:h-12">
+                <img src="./assest/image (3).png" class="rounded-lg" alt="resume-icon" />
+            </div>
+            <div class="absolute top-6 right-6 ">
+                <img src="./assest/Group 694.png" class="rounded-lg resume-image" alt="businesswoman" />
+            </div>
+            <div class="absolute bottom-6 left-10 w-12 h-12 md:w-16 md:h-16">
+                <img src="./assest/image (1).png" class="rounded-lg" alt="worker" />
+            </div>
+            <div class="absolute bottom-6 right-10 w-12 h-12 md:w-16 md:h-16">
+                <img src="./assest/image (4).png" class="rounded-lg" alt="suit" />
+            </div>
+
+            <!-- <div class="absolute inset-0 z-10 pointer-events-none">
+                <div class="absolute top-16 left-10 w-10 h-10 md:w-14 md:h-14">
+                    <img src="https://i.ibb.co/xmGBfWq/engineer.png" class="rounded-lg" alt="engineer" />
+                </div>
+                <div class="absolute top-10 left-1/3 w-8 h-8 md:w-12 md:h-12">
+                    <img src="https://i.ibb.co/sRzTx9k/resume-icon.png" class="rounded-lg" alt="resume-icon" />
+                </div>
+                <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-10 h-10 md:w-14 md:h-14">
+                    <img src="https://i.ibb.co/fqRy1HY/doctor.png" class="rounded-lg" alt="doctor" />
+                </div>
+                <div class="absolute top-10 right-1/3 w-8 h-8 md:w-12 md:h-12">
+                    <img src="https://i.ibb.co/sRzTx9k/resume-icon.png" class="rounded-lg" alt="resume-icon" />
+                </div>
+                <div class="absolute top-16 right-10 w-10 h-10 md:w-14 md:h-14">
+                    <img src="https://i.ibb.co/yPfWvv4/businesswoman.png" class="rounded-lg" alt="businesswoman" />
+                </div>
+                <div class="absolute bottom-20 left-10 w-10 h-10 md:w-14 md:h-14">
+                    <img src="https://i.ibb.co/fvb0W7j/worker.png" class="rounded-lg" alt="worker" />
+                </div>
+                <div class="absolute bottom-20 right-10 w-10 h-10 md:w-14 md:h-14">
+                    <img src="https://i.ibb.co/VYbWzKC/suit.png" class="rounded-lg" alt="suit" />
+                </div>
+            </div> -->
+
+
+        </div>
+    </section>
+
+    <script>
+        lucide.createIcons();
+        // Mobile toggle
+        document.getElementById('mobileMenuBtn').addEventListener('click', () => {
+            document.getElementById('mobileMenu').classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+
+</html>
