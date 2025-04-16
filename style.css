@@ -116,18 +116,27 @@ body {
     background: rgba(26, 32, 42, 1);
 
 }
-.text--orange{
+
+.text--orange {
     color: rgba(235, 73, 62, 1);
 }
 
-.line-bg{
+.line-bg {
     background-color: rgba(235, 73, 62, 1);
 }
 
-.number-bg{
+.number-bg {
     background-color: rgba(235, 73, 62, 1);
 }
 
+.text {
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    letter-spacing: 0%;
+
+}
 
 /* .icon-arror {
     margin-left: 270px;
@@ -163,3 +172,4 @@ body {
     }
 
 }
+
