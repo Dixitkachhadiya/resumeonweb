@@ -63,6 +63,16 @@ body {
     animation: scroll-left 15s linear infinite;
 }
 
+.font-text {
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
 @keyframes scroll-left {
     0% {
         transform: translateX(0%);
