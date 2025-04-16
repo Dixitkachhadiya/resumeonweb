@@ -51,8 +51,6 @@ body {
     line-height: 100px;
     letter-spacing: -2%;
     text-align: center;
-
-
 }
 
 .resume-image {
@@ -72,6 +70,73 @@ body {
     text-align: center;
 
 }
+
+.ribbon-text-section {
+    margin-top: 20px;
+}
+
+.custom-card {
+    background-image: url('./assest/Subtract.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    width: 100%;
+    min-height: 250px;
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.sem-card {
+    background-image: url('./assest/Subtract (3).png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sem-card:hover {
+    transform: translateY(-5px);
+}
+
+.custom-card img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+}
+
+.arrow-1 {
+    background-color: rgba(35, 166, 153, 1);
+}
+
+.section {
+    background: rgba(26, 32, 42, 1);
+
+}
+.text--orange{
+    color: rgba(235, 73, 62, 1);
+}
+
+.line-bg{
+    background-color: rgba(235, 73, 62, 1);
+}
+
+.number-bg{
+    background-color: rgba(235, 73, 62, 1);
+}
+
+
+/* .icon-arror {
+    margin-left: 270px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background: green;
+    border-radius: 50%;
+} */
 
 @keyframes scroll-left {
     0% {
