@@ -173,3 +173,9 @@ body {
 
 }
 
+@media (max-width: 664px) {
+    .home-images{
+        display: none;
+    }
+
+}
